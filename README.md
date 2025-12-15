@@ -1,30 +1,38 @@
-# ScreenMatch2.0
-## Sobre o projeto
+🎬 ScreenMatch 2.0
+About the Project
 
-Este é um projeto desenvolvido como parte de um curso da **Alura**, com o objetivo de aprimorar e evoluir um projeto anterior, servindo como um teste prático para fixar os conceitos aprendidos em programação orientada a objetos com Java.
+This project was developed as part of an Alura course, with the goal of improving and evolving a previous project. It serves as a practical challenge to reinforce concepts learned in Object-Oriented Programming using Java.
 
-O projeto simula uma plataforma de mídia onde o usuário pode interagir com diversos tipos de conteúdos, como filmes, séries, episódios, músicas e podcasts. Ele inclui funcionalidades como avaliação, contagem de reproduções e sistema simples de recomendação.
+The project simulates a media platform where users can interact with different types of content, such as movies, series, episodes, music, and podcasts. It includes features like ratings, play count tracking, and a simple recommendation system.
 
----
+🚀 Main Features
 
-## Funcionalidades principais
+Creation and manipulation of objects such as Movie, Series, Episode, Music, and Podcast
 
-- Criação e manipulação de objetos do tipo Filme, Série, Episódio, Música e Podcast.
-- Controle de avaliações e cálculo da média de notas.
-- Contagem de reproduções e curtidas em áudios (músicas e podcasts).
-- Filtro simples de recomendação baseado na classificação dos conteúdos.
-- Uso de interfaces, herança, polimorfismo e encapsulamento para organizar o código.
-- Utilização de coleções para armazenar e manipular listas de objetos.
+Rating management and average score calculation
 
----
+Play count and like tracking for audio content (music and podcasts)
 
-## Tecnologias utilizadas
+Simple recommendation filter based on content classification
 
-- Linguagem: **Java**
-- IDE sugerida: IntelliJ IDEA ou qualquer outra que suporte Java
-- Conceitos aplicados:
-  - Orientação a objetos (herança, encapsulamento, polimorfismo)
-  - Interfaces
-  - Collections (List, ArrayList, LinkedList)
-  - Sobrescrita de métodos (`@Override`)
-  - Estruturação de pacotes
+Use of interfaces, inheritance, polymorphism, and encapsulation to organize the code
+
+Use of collections to store and manage lists of objects
+
+🛠 Technologies Used
+
+Language: Java
+
+Recommended IDE: IntelliJ IDEA or any IDE that supports Java
+
+Concepts Applied
+
+Object-Oriented Programming (inheritance, encapsulation, polymorphism)
+
+Interfaces
+
+Collections (List, ArrayList, LinkedList)
+
+Method overriding (@Override)
+
+Package structuring
