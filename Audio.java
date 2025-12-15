@@ -2,55 +2,57 @@ package br.com.alura.ScreenMatch.Desafio;
 
 import br.com.alura.ScreenMatch.calculos.Classificacao;
 
-public class Audio  implements Classificacao {
-    private String Titulo;
-    private int Duracao;
-    private int totalDeReproducoes;
-    private int curtida;
+public class Audio implements Classificacao {
 
-    public String getTitulo() {
-        return Titulo;
+    private String title;
+    private int duration;
+    private int totalPlays;
+    private int likes;
+
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitulo(String titulo) {
-        Titulo = titulo;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public int getDuracao() {
-        return Duracao;
+    public int getDuration() {
+        return duration;
     }
 
-    public void setDuracao(int duracao) {
-        Duracao = duracao;
+    public void setDuration(int duration) {
+        this.duration = duration;
     }
 
-    public int getTotalDeReproducoes() {
-        return totalDeReproducoes;
+    public int getTotalPlays() {
+        return totalPlays;
     }
 
-    public void setTotalDeReproducoes(int totalDeReproducoes) {
-        this.totalDeReproducoes++;
+    // mantém o comportamento original (incrementa, ignora parâmetro)
+    public void setTotalPlays(int totalPlays) {
+        this.totalPlays++;
     }
 
-    public int getCurtida() {
-        return curtida;
+    public int getLikes() {
+        return likes;
     }
 
-    public void setCurtida(int curtida) {
-        this.curtida++;
-
+    // mantém o comportamento original (incrementa, ignora parâmetro)
+    public void setLikes(int likes) {
+        this.likes++;
     }
 
     @Override
     public int getClassificacao() {
         return 0;
     }
-    public void reproduzir() {
-        this.totalDeReproducoes++;
-    }
-    public void curtir() {
-        this.curtida++;
+
+    public void play() {
+        this.totalPlays++;
     }
 
-
+    public void like() {
+        this.likes++;
+    }
 }
